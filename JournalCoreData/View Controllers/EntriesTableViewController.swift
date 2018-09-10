@@ -17,11 +17,6 @@ class EntriesTableViewController: UITableViewController, NSFetchedResultsControl
         entryController.fetchEntriesFromServer()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        tableView.reloadData()
-    }
     
     // MARK: - Table view data source
     
